@@ -2,7 +2,7 @@
 function Station() {
   return (
     <>
-    <div className=" m-2  p-1 container mx-auto border shadow-lg">
+    <div className=" m-2  p-2 container mx-auto  shadow-lg">
       <h1 className="text-7xl text-blue-500">About me</h1>
       <div className="text-3xl" >
         <h1>
@@ -28,38 +28,37 @@ function Station() {
         </h1>     
         </div>
 
-        <div className="md:flex just">
+        <div className="md:flex justify-center">
+              <div class="max-w-sm m-2 bg-white rounded-lg border border-gray-200 shadow-md ">
+                <div class="p-5">
+                    <p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Rest APIs</h5>
+                    </p>
+                    <p class="mb-3 font-normal text-gray-700">I have a good hands in making APIs endpoints using NodeJS , DenoJS and Python.</p>
+                </div>
+               </div>
 
-        </div>
+                <div class="max-w-sm m-2 bg-white rounded-lg border border-gray-200 shadow-md ">
 
-        <div class="max-w-sm m-2 bg-white rounded-lg border border-gray-200 shadow-md ">
         <div class="p-5">
             <p>
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rest API</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">MERN web Applications</h5>
             </p>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">I have a good hands in making APIs endpoints using NodeJS , DenoJS and Python.</p>
-        </div>
-        </div>
+            <p class="mb-3 font-normal text-gray-700">I have a good hands in making scalable web applications using the MERN stack ,  websites will be Fast and Secure thanks to this Technlogy</p>
+            </div>
+          </div>
 
-        <div class="max-w-sm m-2 bg-white rounded-lg border border-gray-200 shadow-md ">
-
-            <div class="p-5">
-                <p>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">MERN web Applications</h5>
-                </p>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">I have a good hands in making scalable web applications using the MERN stack , your website will be Fast and Secure thanks to this Technlogy</p>
-             </div>
-        </div>
-         
-        <div class="max-w-sm m-2 bg-white rounded-lg border border-gray-200 shadow-md ">
+          <div class="max-w-sm m-2 bg-white rounded-lg border border-gray-200 shadow-md ">
           <div class="p-5">
               <p>
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Electron GUIs</h5>
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Electron GUIs</h5>
               </p>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">I can make a Desctop app <br /> 
+              <p class="mb-3 font-normal text-gray-700">I can make a Desktop apps using Electron JS  <br /> 
                 <kbd>Linux/MAC/WIN</kbd>
               </p>
           </div>
+        </div>
+
         </div>
 
       </div>
